@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1490800497 source:d:\programare\academie\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	<regex>
+
+1491417711 source:d:\programare\coding best practices\main.cpp
+	"header.h"
+
+1491418028 d:\programare\coding best practices\header.h
+	<iostream>
+	<fstream>
+	<string.h>
+	<regex>
+	"citire.cpp"
+	"afisare.cpp"
+	"verificare.cpp"
+	"stergere.cpp"
+	"adaugare.cpp"
+	"informatii.cpp"
+
+1491418141 d:\programare\coding best practices\citire.cpp
+
+1491418140 d:\programare\coding best practices\afisare.cpp
+
+1491418141 d:\programare\coding best practices\verificare.cpp
+
+1491418140 d:\programare\coding best practices\stergere.cpp
+
+1491418140 d:\programare\coding best practices\adaugare.cpp
+
+1491418141 d:\programare\coding best practices\informatii.cpp
+
