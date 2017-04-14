@@ -5,17 +5,18 @@
 #include <fstream>
 #include <string.h>
 #include <regex>
+#include <stdlib.h>
+#include <conio.h>
 
 using namespace std;
 
 ifstream cit_a("actori.csv");
 ifstream cit_f("filme.csv");
 
-//declarare actori
+/// declarare actori
 struct      actor{
 
     char    nume[50];
-    char    prenume[50];
     char    data_nasterii[11];
     char    nationalitate[50];
     char    oras[50];
@@ -27,7 +28,7 @@ struct      actor{
 
 }           vActori[100];
 
-//declarare filme
+/// declarare filme
 struct      film{
 
     char    denumire[50];
@@ -39,6 +40,7 @@ struct      film{
 
 void        citire_actori(actor v[100], int &n);
 void        citire_filme(film v[100], int &n);
+void        afisare_meniu();
 void        afisare_actori(actor v[100], int n);
 void        afisare_filme(film v[100], int n);
 void        afisare_informatii_actor(actor v[100], int i, int m);

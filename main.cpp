@@ -1,36 +1,28 @@
 #include "header.h"
 
-//meniul
+/// meniul
 void    meniu_aplicatie(int &n_actori, int &n_filme)
 {
-    char    c[51];
+    char    c;
     int     optiune;
     do
     {
-        cout<<"1) Afisare actori"<<endl;
-        cout<<"2) Afisare filme"<<endl;
-        cout<<"3) Informatii despre un actor"<<endl;
-        cout<<"4) Informatii despre un film"<<endl;
-        cout<<"5) Stergere film"<<endl;
-        cout<<"6) Stergere actor"<<endl;
-        cout<<"7) Adaugare film"<<endl;
-        cout<<"8) Adaugare actor"<<endl;
-        cout<<"9) Iesire"<<endl;
-        cout<<endl;
-        cout<<"Introduceti o optiune: ";
-        cin>>c;
-        cout<<endl;
-        if (*c > '9' || !(*c >= '0' && *c <= '9'))
+        system("cls");
+        afisare_meniu();
+        cout << "Introduceti o optiune: ";
+        c = getch();
+        cout << endl;
+        if (!(c >= '1' && c <= '9'))
         {
-            cout<<"Ati introdus un caracter gresit"<<endl;
-            cout<<endl;
+            system("cls");
+            cout << "Ati introdus un caracter gresit" << endl;
+            cout << "Introduceti orice tasta pentru a continua ";
         }
         else
         {
-            optiune = *c - '0';
+            optiune = c - '0';
             switch(optiune)
             {
-
                 case 1: afisare_actori(vActori, n_actori);
                     break;
                 case 2: afisare_filme(vFilme, n_filme);
@@ -50,7 +42,11 @@ void    meniu_aplicatie(int &n_actori, int &n_filme)
                 case 9: break;
             }
         }
+        if (c != '9')
+            getch();
     }while (optiune != 9);
+    cout << endl;
+    cout << "Credits: Alex Persa | e-mail: alex.persa28@yahoo.com" << endl;
 }
 
 int main()

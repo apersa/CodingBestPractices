@@ -32,3 +32,32 @@
 
 1491418141 d:\programare\coding best practices\informatii.cpp
 
+1492191198 source:d:\programare\codeblocks\coding best practices\main.cpp
+	"header.h"
+
+1492165087 d:\programare\codeblocks\coding best practices\header.h
+	<iostream>
+	<fstream>
+	<string.h>
+	<regex>
+	<stdlib.h>
+	<conio.h>
+	"citire.cpp"
+	"afisare.cpp"
+	"verificare.cpp"
+	"stergere.cpp"
+	"adaugare.cpp"
+	"informatii.cpp"
+
+1492188381 d:\programare\codeblocks\coding best practices\citire.cpp
+
+1492165087 d:\programare\codeblocks\coding best practices\afisare.cpp
+
+1492104709 d:\programare\codeblocks\coding best practices\verificare.cpp
+
+1492188014 d:\programare\codeblocks\coding best practices\stergere.cpp
+
+1492191408 d:\programare\codeblocks\coding best practices\adaugare.cpp
+
+1492191470 d:\programare\codeblocks\coding best practices\informatii.cpp
+
