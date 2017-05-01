@@ -34,7 +34,6 @@ void    informatii_despre_film(film v[100], int n, int m)
     char    nume[51];
 
     ok = 0;
-    //cin.get();
     system("cls");
     cout<<"Dati numele filmului: ";
     cin.getline(nume, 50);
